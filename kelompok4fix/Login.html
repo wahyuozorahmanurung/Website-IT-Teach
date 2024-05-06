@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/login.css">
+    <title>Kelompok4</title>
+</head>
+<body>
+    <center>
+        <img
+            src="assets/Img/Logo primary.png"
+            alt="Logo"
+            width="100"
+            class="d-inline-block align-text-top ms-3"></a>
+    <h1 style="color:rgb(247, 247, 250); font-family:cambria">IT-Teach</h1>
+    <p>Login Your Account</p>
+    <form id="loginForm" style="border: solid; margin-left: 0px; border-radius: 1rem;">
+        <p>Enter Your Username</p>
+        <input type="text" placeholder="Enter Your username" id="username" required>
+        <br>
+        <p>Enter Your Password</p>
+        <input type="password" placeholder="Enter Your Password" id="password" required>
+        <br>
+        <br>
+        <button type="button" onclick="login()">Masuk</button>
+        <br>
+        <a href="forget.html">Forget Password</a>
+        <br>
+        <br>
+        <a href="new.html">Create New Account</a>
+    </form>
+    
+    <script>
+        function login() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+    
+            
+            if (username == "kelompok4palingbagus" && password == "Kelompok4") {
+                window.location.href = "index.html";
+            } else {
+                alert("Username atau password salah. Silakan coba lagi.");
+            }
+        }
+    </script>
+    </center>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5d62df; /* Warna latar belakang baru */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Menentukan tinggi agar form berada di tengah */
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+form {
+    border: solid;
+    border-color: #fff; /* Warna border */
+    border-radius: 1rem;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff; /* Warna latar belakang formulir */
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgb(5, 5, 122);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(242, 243, 247);
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: blue;
+    
+}
+
+a:hover {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+}
+
+#new-account {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(229, 227, 240);
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
